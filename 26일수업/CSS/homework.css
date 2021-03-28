@@ -1,0 +1,193 @@
+body {
+	width: 950px;
+	display: inline-block;
+	margin-left: 20px;
+}
+
+.d7 {
+	position: relative;
+	left: 20px;
+	margin: 0px;
+}
+
+.d4 {
+	display: inline-block;
+	width: 110px;
+	height: 35px;
+	border-top: 1px solid lightgrey;
+	border-bottom: 1px solid lightgrey;
+	border-left: 1px solid lightgrey;
+	text-align: center;
+	float: left;
+	margin: 0px;
+	padding-top: 10px;
+	font-weight: bold;
+}
+
+.d9 {
+	display: inline-block;
+}
+
+.p2:hover {
+	text-decoration: underline;	
+}
+
+.d4:hover {
+	cursor: pointer;
+}
+
+.m1:hover {
+	color: #e65da0;
+}
+
+.m2:hover {
+	color: #0147b5;
+}
+
+.m3:hover {
+	color: #4a94e1;
+}
+
+.m4:hover {
+	color: #66c971;
+}
+
+.m5:hover {
+	color: #35ae5e;
+}
+
+.m6:hover {
+	color: #e77c43;
+}
+
+.m7:hover {
+	color: #5bb8e1;
+}
+
+.m8:hover {
+	color: #1a2f63;
+	
+}
+
+.m8 {
+	border-right: 1px solid lightgrey;
+}
+
+
+
+.d3 > img:hover {
+	-webkit-transform:scale(1.2);	
+}
+
+.d3 {
+	width: 200px;
+	height: 135px;
+	overflow: hidden;
+	flof: left;
+	display: inline-block;
+	margin-right: 20px;
+	margin-top: 20px;
+}
+
+a {
+	text-decoration: none;
+	color: inherit;
+}
+.d5 {
+	position: absolute;
+	display: inline-block;
+	font-weight: bold;
+	width: 31px;
+	height: 31px;
+	top: 13px;
+	text-align: center;
+	border-radius: 50%;
+	border: 1px solid lightgrey;
+	background-color: white;
+	color: grey;
+	z-index: 1;
+	float: left;
+	box-shadow: 1px 1px 3px 0px lightgrey;
+	font-size: 15pt;
+}
+
+.d6 {
+	position: absolute;
+	display: inline-block;
+	font-weight: bold;
+	width: 31px;
+	height: 31px;
+	top: 13px;
+	left: 910px;
+	text-align: center;
+	border-radius: 50%;
+	border: 1px solid lightgrey;
+	background-color: white;
+	color: grey;
+	font-size: 15pt;
+	z-index: 1;
+	box-shadow: 1px 1px 3px 0px lightgrey;
+}
+
+.d1 {
+	float: left;
+}
+.img1 {
+	width: 450px;
+	margin-right: 50px;
+	margin-bottom: 20px;
+	margin-top: 35px;
+}
+
+.img2 {
+	width: 450px;
+	margin-bottom: 20px;
+	margin-top: 35px;
+}
+
+.d9 {
+	display: inline-block;
+	margin: 0px;
+	widht: 600px;
+}
+
+.p1 {
+	color: orange;
+	text-align: left;
+	margin-bottom: 0px;
+	margin-top: 0px;
+}
+
+.p2 {
+	font-size: 13pt;
+	font-weight: bold;
+	margin-top: 7px; 
+	margin-bottom: 7px;
+}
+
+.p3 {
+	margin-top: 0px;
+	margin-bottom: 7px;
+}
+
+hr {
+	background-color: lightgrey;
+	border: 0px;
+	height: 1px;
+	margin-top: 30px;
+	width: 960px;
+}
+
+.img3 {
+
+	float: left;
+	width: 200px;
+	height: 135px;
+}
+
+
+.p4 {
+	font-size: 11pt;
+	color: light-grey;
+	margin: 0px 0px 5px 0px;
+}

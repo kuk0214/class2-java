@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>Insert title here</title>
+<link rel="stylesheet" type="text/css" href="../css/w3.css">
+<link rel="stylesheet" type="text/css" href="../css/user.css">
+<link rel="stylesheet" type="text/css" href="../css/">
+</head>
+<body>
+	<div class="w3=content mxw600">
+		<h1 class="w3-center w3-deep-purple w3-card-4 w3-round w3-padding">L o g i n</h1>
+		<div class="w3-container w3-center w3-card-4 w3-round-large">
+			<div class="w3-row">
+				<label for="id" class="w3-col m2 w3-text-grey w3-text-right">I D :</label>
+				<input type="text" id="id" name="id" class="w3-col m10 w3-input w3-border" placeholder="아이디를 입력하세요!">
+			</div>
+			<div class="w3-row">
+				<label for="pw" class="w3-col m2 w3-text-grey w3-text-right">P W :</label>
+				<input type="password" id="pw" name="pw" class="w3-col m10 w3-input w3-border w3-margin-bottom" placeholder="비밀번호를 입력하세요!">
+			</div>
+		</div>
+		<div class="w3-row w3-margin-top">
+			<div class="w3-third w3-button w3-red w3-hover-orange w3-round-large w3-left w3-margin-bottom w3-card-4" id="cBtn">Cancle</div>
+			<div class="w3-third w3-button w3-blue w3-hover-aqua w3-round-large w3-right w3-card-4"  id="lBtn">Login</div>
+		</div>
+	</div>
+	
+	<!-- javascript -->
+	<script type="text/javascript">
+		function func01() {
+			var sid = document.getElementById('id').value;
+			var spw = document.getElementById('pw').value;
+			if (!(sid && spw))) {
+				alert('아이디 비번을 확인하세요!');
+			} else {
+				alert('아이디 : ' + sid + '\n비밀번호 : ' + spw)
+			}
+			
+			document.getElementById('cBtn').onclick = func01;
+			document.getElementById('lBtn').onclick = func01;
+		}
+	</script>
+</body>
+</html>
